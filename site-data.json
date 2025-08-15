@@ -1,0 +1,103 @@
+{
+  "name": "DASARI ROHITH REDDY",
+  "role": "Full Stack Developer",
+  "location": "Hyderabad, India",
+  "email": "rohithreddy5134@gmail.com",
+  "phone": "8465017481",
+  "github": "https://github.com/rohith697-cpu",
+  "linkedin": "https://www.linkedin.com/in/rohith765",
+  "summary": "Full Stack Developer skilled in building responsive, accessible, and performant web applications. Experienced with the MERN stack, RESTful APIs, and clean, maintainable code.",
+  "skills": {
+    "Frontend": [
+      "HTML",
+      "CSS / CSS3",
+      "JavaScript",
+      "React",
+      "Redux",
+      "Bootstrap"
+    ],
+    "Backend": [
+      "Node.js",
+      "Express",
+      "REST APIs",
+      "Python/Django",
+      "SQL",
+      "NoSQL (MongoDB)"
+    ],
+    "Tools": [
+      "Git & GitHub",
+      "VS Code",
+      "Postman"
+    ],
+    "Soft Skills": [
+      "Team Collaboration",
+      "Problem Solving",
+      "Communication",
+      "Time Management"
+    ]
+  },
+  "education": [
+    {
+      "school": "Marri Laxman Reddy Institute of Technology and Management",
+      "degree": "B.E. in Computer Science & Engineering",
+      "dates": "Jan 2020 \u2013 Dec 2024",
+      "gpa": "6.3 CGPA"
+    },
+    {
+      "school": "Sri Chaitanya Junior College",
+      "degree": "Intermediate",
+      "dates": "Jun 2019 \u2013 Mar 2020",
+      "gpa": "6.3"
+    }
+  ],
+  "certs": [
+    "JavaScript \u2014 HackerRank (Jul 2025)",
+    "Web Development \u2014 Internshala Trainings (Oct 2024)",
+    "MySQL \u2014 HackerRank (Oct 2024)",
+    "Python \u2014 HackerRank (Sep 2024)"
+  ],
+  "projects": [
+    {
+      "title": "E\u2011Commerce Store",
+      "period": "Jan 2025 \u2013 Feb 2025",
+      "stack": [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "JWT"
+      ],
+      "desc": "Full\u2011stack store with auth, product search/filter, cart, checkout, order history, and admin dashboard."
+    },
+    {
+      "title": "Social Media App",
+      "period": "Mar 2025 \u2013 Apr 2025",
+      "stack": [
+        "React",
+        "Node.js",
+        "Socket.IO",
+        "MongoDB"
+      ],
+      "desc": "Real\u2011time posts, likes, comments, follow system, and messaging."
+    },
+    {
+      "title": "Portfolio Website",
+      "period": "May 2025 \u2013 Jun 2025",
+      "stack": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "desc": "Responsive single\u2011page site highlighting projects, skills, and achievements."
+    },
+    {
+      "title": "Online Transactions Fraud Detection",
+      "period": "Jan 2024 \u2013 Mar 2025",
+      "stack": [
+        "Python",
+        "Machine Learning"
+      ],
+      "desc": "ML system to detect and prevent fraudulent online transactions."
+    }
+  ]
+}

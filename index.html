@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>DASARI ROHITH REDDY · Full Stack Developer</title>
+  <meta name="description" content="Portfolio of DASARI ROHITH REDDY — Full Stack Developer from Hyderabad, India. MERN stack, REST APIs, and clean code." />
+  <link rel="icon" href="assets/profile.jpg">
+  <link rel="preload" href="assets/profile.jpg" as="image">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">DASARI<span>.</span></a>
+    <nav id="menu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="hamburger" aria-label="Open menu" onclick="toggleMenu()">☰</button>
+    <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">○</button>
+  </header>
+
+  <main id="home" class="hero container">
+    <div class="hero__text">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1>DASARI ROHITH REDDY</h1>
+      <h2>Full Stack Developer</h2>
+      <p class="summary">Full Stack Developer skilled in building responsive, accessible, and performant web applications. Experienced with the MERN stack, RESTful APIs, and clean, maintainable code.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">View Projects</a>
+        <a class="btn" href="assets/DASARI_ROHITH_REDDY_Resume.pdf" download>Download Resume</a>
+      </div>
+      <ul class="socials">
+        <li><a href="https://github.com/rohith697-cpu" target="_blank" rel="noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/rohith765" target="_blank" rel="noreferrer">LinkedIn</a></li>
+      </ul>
+    </div>
+    <div class="hero__image">
+      <img src="assets/profile.jpg" alt="Profile photo of DASARI ROHITH REDDY" />
+    </div>
+  </main>
+
+  <section id="about" class="container section">
+    <h3 class="section__title">About</h3>
+    <p>
+      Based in Hyderabad, India, I build fast, accessible, and maintainable applications.
+      I enjoy transforming ideas into user‑friendly products and writing clean, well‑tested code.
+    </p>
+  </section>
+
+  <section id="skills" class="container section">
+    <h3 class="section__title">Skills</h3>
+    <div class="skills">
+      <div class="skill-group"><h4>Frontend</h4><div class="chips"><span class="chip">HTML</span><span class="chip">CSS / CSS3</span><span class="chip">JavaScript</span><span class="chip">React</span><span class="chip">Redux</span><span class="chip">Bootstrap</span></div></div><div class="skill-group"><h4>Backend</h4><div class="chips"><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">REST APIs</span><span class="chip">Python/Django</span><span class="chip">SQL</span><span class="chip">NoSQL (MongoDB)</span></div></div><div class="skill-group"><h4>Tools</h4><div class="chips"><span class="chip">Git & GitHub</span><span class="chip">VS Code</span><span class="chip">Postman</span></div></div><div class="skill-group"><h4>Soft Skills</h4><div class="chips"><span class="chip">Team Collaboration</span><span class="chip">Problem Solving</span><span class="chip">Communication</span><span class="chip">Time Management</span></div></div>
+    </div>
+  </section>
+
+  <section id="projects" class="container section">
+    <h3 class="section__title">Projects</h3>
+    <div class="grid">
+      
+      <article class="card reveal">
+        <div class="card__head">
+          <h4>E‑Commerce Store</h4>
+          <span class="period">Jan 2025 – Feb 2025</span>
+        </div>
+        <p class="desc">Full‑stack store with auth, product search/filter, cart, checkout, order history, and admin dashboard.</p>
+        <div class="chips">
+          <span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">MongoDB</span><span class="chip">JWT</span>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="card__head">
+          <h4>Social Media App</h4>
+          <span class="period">Mar 2025 – Apr 2025</span>
+        </div>
+        <p class="desc">Real‑time posts, likes, comments, follow system, and messaging.</p>
+        <div class="chips">
+          <span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Socket.IO</span><span class="chip">MongoDB</span>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="card__head">
+          <h4>Portfolio Website</h4>
+          <span class="period">May 2025 – Jun 2025</span>
+        </div>
+        <p class="desc">Responsive single‑page site highlighting projects, skills, and achievements.</p>
+        <div class="chips">
+          <span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span>
+        </div>
+      </article>
+      <article class="card reveal">
+        <div class="card__head">
+          <h4>Online Transactions Fraud Detection</h4>
+          <span class="period">Jan 2024 – Mar 2025</span>
+        </div>
+        <p class="desc">ML system to detect and prevent fraudulent online transactions.</p>
+        <div class="chips">
+          <span class="chip">Python</span><span class="chip">Machine Learning</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="education" class="container section">
+    <h3 class="section__title">Education</h3>
+    <ol class="timeline">
+      
+      <li>
+        <div class="timeline__point"></div>
+        <div class="timeline__content">
+          <h4>Marri Laxman Reddy Institute of Technology and Management</h4>
+          <p class="muted">B.E. in Computer Science & Engineering • Jan 2020 – Dec 2024 • GPA: 6.3 CGPA</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline__point"></div>
+        <div class="timeline__content">
+          <h4>Sri Chaitanya Junior College</h4>
+          <p class="muted">Intermediate • Jun 2019 – Mar 2020 • GPA: 6.3</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section id="contact" class="container section">
+    <h3 class="section__title">Contact</h3>
+    <div class="contact">
+      <div>
+        <p><strong>Email:</strong> <a href="mailto:rohithreddy5134@gmail.com">rohithreddy5134@gmail.com</a> <button class="small" onclick="copyText('rohithreddy5134@gmail.com')">Copy</button></p>
+        <p><strong>Phone:</strong> <a href="tel:8465017481">8465017481</a></p>
+        <p><strong>Location:</strong> Hyderabad, India</p>
+      </div>
+      <form onsubmit="event.preventDefault(); openMail();">
+        <input type="text" id="name" placeholder="Your name" required />
+        <input type="email" id="from" placeholder="Your email" required />
+        <textarea id="msg" rows="4" placeholder="Message" required></textarea>
+        <button class="btn primary" type="submit">Send Email</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> DASARI ROHITH REDDY · Built with HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
